@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg {
+    background-image: url(../img/bgc.png);
+    min-width: 1920px;
+    height: 900px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin-left: 400px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.addres, .num {
+    color: #fff;
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 1110px;
+    margin: 20px 405px;    
+    line-height: 150%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu div {
+    color: #fff;
+    padding: 13px 105px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-1 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: none;
+}
+
+.box-2 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.box-3 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.box-4 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: none;
+    border-left: 0px solid #fff;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: space-between;
+    width: 415px;
+    height: 50px;
+    margin-top: 583px;
+    margin-left: 752px;
+}
+
+.map, .test {
+    padding: 15px 30px;
+    background-color: #998431;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.map {
+    flex-basis: 34%;
+}
+
+.test{
+    flex-basis: 30%
+}
+
