@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg {
+    background-image: url(../img/bgc.png);
+    min-width: 1920px;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin-left: 400px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.addres, .num {
+    color: #fff;
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 1110px;
+    margin: 20px 405px;    
+    line-height: 150%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu div {
+    color: #fff;
+    padding: 13px 105px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-1 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: none;
+}
+
+.box-2 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.box-3 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 0px solid #fff;
+}
+
+.box-4 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: none;
+    border-left: 0px solid #fff;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: space-between;
+    width: 415px;
+    height: 50px;
+    margin-top: 570px;
+    margin-left: 752px;
+    margin-bottom: 160px;
+}
+
+.map, .test {
+    padding: 15px 30px;
+    background-color: #998431;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.map {
+    flex-basis: 34%;
+}
+
+.test{
+    flex-basis: 30%
+}
+
+/*-----------------------------------------------*/
+
+.descbg {
+    background-color: #282828;
+    min-width: 1920px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.description {
+    width: 1110px;
+    height: 656px;
+    border: 2px solid #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best p {
+    font-family: Playfair Display, sans-serif;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.line {
+ margin-bottom: 40px;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 733px;
+    height: 192px;
+    margin-bottom: 40px;
+}
+
+.glass {
+    margin-bottom: 60px;
+}
+
+/*-----------------------------------------------*/
+
+.main {
+    background-color: #E6E3C4;
+    min-width: 1920px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.main_container {
+    display: flex;
+    width: 1110px;
+    height: 878px;
+    justify-content: space-between;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+}
+
+.new {
+    width: 347px;
+    height: 24px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.year {
+    width: 298px;
+    height: 108px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+    margin-bottom: 20px;
+}
+
+.line2 {
+    margin-bottom: 20px;
+}
+
+.text2 {
+    width: 445px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    margin-bottom: 30px;
+}
+
+.border-none {
+    border: 1px solid black;
+    width: 445px;
+    height: 228px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    margin-bottom: 30px;
+}
+
+.tex2 {
+    padding: 30px 24px;
+}
+
+.tex {
+    padding: 15px 30px;
+}
+
+span {
+    font-family: 'Playfair Display', sans-serif ;
+}
+
+.border-none {
+    border-collapse: collapse;
+    border: none;
+}
+  
+.border-none td {
+    border: 1px solid #282828;
+}
+  
+.border-none tr:first-child td {
+    border-top: none;
+}
+  
+.border-none tr:last-child td {
+    border-bottom: none;
+}
+  
+.border-none tr td:first-child {
+    border-left: none;
+}
+  
+.border-none tr td:last-child {
+    border-right: none;
+}
+
+.buttom_more {
+    width: 254px;
+    background-color: #998431;
+    padding: 15px 17px;
+    background-color: #998431;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 140px;
+}
+
+
+.main_imgs {
+    width: 540px;
+    height: 758px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.main_glass {
+    margin-bottom: 30px;
+}
+
+.main_bottle_right {
+    margin-left: 30px;
+}
+
+/*-----------------------------------------------*/
+
+.testbg {
+    background-color: #282828;
+    min-width: 1920px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testing {
+    width: 1110px;
+    height: 538px;
+    border: 2px solid #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.on_test {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.texttest {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 539px;
+    height: 72px;
+    margin-bottom: 80px;
+}
+
+#name,
+#tell {
+    margin-bottom: 50px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 150%;
+    margin: 0;
+    background-color: #282828;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+#adres {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#subm {
+    margin-bottom: 80px;
+}
